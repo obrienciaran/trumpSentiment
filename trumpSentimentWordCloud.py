@@ -29,7 +29,7 @@ c.Username = "realDonaldTrump"
 c.Format = "Username: {username} |  Tweet: {tweet}"
 
 # Number Tweets. Lets take the most recent 5000
-c.Limit = 100
+c.Limit = 5000
 
 # Make comptatable with Pandas
 c.Pandas = True
@@ -103,7 +103,7 @@ def main(OUTPUTPATH,MASKTWITTER,MASKFLAG,OUTPUTTEXT):
     _wcTwitter = wordCloudTwitter(words,MASKTWITTER)
     _wcFlag = wordCloudFlag(words,MASKFLAG)
 
-    # save word cloud text to a .txt file 
+    # save all words used to generate the word cloud text to a .txt file 
     with open(OUTPUTTEXT, 'w') as file_handler:
         for word in words:
             file_handler.write("{}\n".format(word))
