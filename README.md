@@ -9,4 +9,7 @@ https://github.com/twintproject/twint
 
 Some code referenced from:
 https://towardsdatascience.com/analyzing-tweets-with-nlp-in-minutes-with-spark-optimus-and-twint-a0c96084995f?gi=740ee6d31ebd
+
+and
+
 https://medium.com/@shsu14/introduction-to-data-science-custom-twitter-word-clouds-704ec5538f46
