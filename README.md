@@ -5,11 +5,11 @@ Exploratory data analysis is performed on President Trump's tweets, incorporatin
 
 Twint is an advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.  More information below. 
 
-Use scapeTweets.py to collect the latest 500 Tweets from Trump, clean them, and save them down in a .csv format. Simple change the output path. 
+Use scrapeTweets.py to collect the latest 5000 Tweets from Trump, clean them, and save them down in a .csv format. Simple change the output path. 
 
-Note: 
+Note: trumpSentimentWordCloud.py is a standalone module used to generate the word cloud. It undergoes a different cleaning process than that in scrapeTweets.py and is used solely for the purposes of creating the word cloud.
 
-
+Twint info and installation process: 
 https://github.com/twintproject/twint
 
 Some code referenced from:
