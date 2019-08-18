@@ -1,4 +1,12 @@
 '''
+Note: 
+This is a standalone piece of code. It generates the tweets, cleans them, and generates the word cloud.
+It does not output or save any files. 
+
+If you do not want to generate word clouds, just use the scrapetweets.py file to generate Tweet data, 
+and trumpSentimentAnalysis.py if you want to perform analysis on the tweets. 
+
+
 The Twint module would not import unless I appended the path it was stored in 
 to the sys following the pip3 installation. 
 '''
